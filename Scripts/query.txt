@@ -1,0 +1,13 @@
+"SELECT * FROM Specifications  LEFT JOIN psyCHOder ON Specifications.Cell_id=psyCHOder.Cell_id WHERE psyCHOder.Price='".mysql_real_escape_string($pricev)."'&&
+																															psyCHOder.Popularity = '".mysql_real_escape_string($popularityv)."'&&
+																															psyCHOder.Brand = '".mysql_real_escape_string($brandv)."'&&
+																															psyCHOder.Durability = '".mysql_real_escape_string($durabilityv)."'&&
+																															psyCHOder.Looks = '".mysql_real_escape_string($looksv)."'&&
+																															psyCHOder.Display = '".mysql_real_escape_string($displayv)."'&&
+																															psyCHOder.Sensors = '".mysql_real_escape_string($sensorsv)."'&&
+																															psyCHOder.Battery = '".mysql_real_escape_string($batteryv)."'&&
+																															psyCHOder.Speed = '".mysql_real_escape_string($speedv)."'&&
+																															psyCHOder.Operating_System = '".mysql_real_escape_string($osv)."'&&
+																															psyCHOder.Camera = '".mysql_real_escape_string($camerav)."'&&
+																															psyCHOder.RAM = '".mysql_real_escape_string($ramv)."'&&
+																															psyCHOder.Sound = '".mysql_real_escape_string($soundv)."'"
